@@ -1,0 +1,57 @@
+{
+    "name": "Layer System",
+    "articleParts": [
+        {
+            "type": "TITLE",
+            "title": "Understanding the Layer System"
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "The Starsector Ship Editor allows you to load and edit multiple ships and weapons at the same time using the Layer System. Each entity you open is placed on its own distinct layer."
+        },
+        {
+            "type": "SEPARATOR",
+            "title": "Working with Layers"
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "You can visualize the layer system as a stack of transparent sheets, each containing a different ship or weapon."
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "1. Opening Entities: When you double-click a ship or weapon from the data tree, it opens as a new layer in the viewport."
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "2. Active Layer: Only one layer can be fully active (editable) at a time. The active layer is highlighted in the Layer list panel on the left side of the screen."
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "3. Switching Layers: Click on a layer in the Layer list panel to make it active, or use the ALT + Left Click shortcut on the entity in the viewport."
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "4. Reordering Layers: You can drag and drop layers in the Layer list panel to change their render order (which entity appears in front of the others)."
+        },
+        {
+            "type": "SEPARATOR",
+            "title": "Layer Features"
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "Layers have several properties you can toggle to help with your editing workflow:"
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "- Visibility (Eye Icon): Temporarily hide a layer from the viewport without removing it."
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "- Lock (Padlock Icon): Prevent a layer from being accidentally selected or edited when clicking in the viewport."
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "- Opacity: Adjust the transparency of a layer to compare it with the entities beneath it. This is useful for aligning weapon mounts or engine trails."
+        }
+    ]
+}

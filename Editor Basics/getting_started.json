@@ -1,0 +1,53 @@
+{
+    "name": "Getting Started",
+    "articleParts": [
+        {
+            "type": "TITLE",
+            "title": "Welcome to the Starsector Ship Editor"
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "The Starsector Ship Editor allows you to intuitively create, modify, and manage ships, weapons, and their visual representations for Starsector mods."
+        },
+        {
+            "type": "SEPARATOR",
+            "title": "Configuring Game Data"
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "Before you can start editing, the application needs to know where your Starsector installation is located. The Game Data Repository handles loading the core game files and any active mods you want to include."
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "1. Open the Settings dialog from the top menu bar."
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "2. Navigate to the 'Game Data' tab and set the 'Core Game Folder' path to your Starsector directory (the folder containing starsector-core)."
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "3. The editor will automatically detect mods installed in the 'mods' folder. You can enable or disable them as needed to load their assets."
+        },
+        {
+            "type": "SEPARATOR",
+            "title": "Creating a Project"
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "A project is where your own modified ships, weapons, and variants will be saved. It is highly recommended to set your target mod directory as your project folder."
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "1. Click on 'File' > 'New Project' or 'Open Project'."
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "2. Select the directory of the mod you are currently working on."
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "3. Any changes you save (like hull files, variants, or skins) will be written to this project directory, preserving the original game files."
+        }
+    ]
+}
