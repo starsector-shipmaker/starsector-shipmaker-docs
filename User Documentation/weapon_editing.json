@@ -1,0 +1,61 @@
+{
+    "name": "Weapon Editing",
+    "articleParts": [
+        {
+            "type": "TITLE",
+            "title": "Editing Weapons"
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "The Weapon Editor allows you to create and configure '.wpn' files, which define the visual and technical parameters of ship weapons."
+        },
+        {
+            "type": "SEPARATOR",
+            "title": "Weapon Visuals"
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "1. Turret and Hardpoint Sprites: Weapons can have different sprites depending on whether they are mounted on a Turret slot or a Hardpoint slot. You can define a base sprite, a glow sprite (for energy weapons or engine exhausts on missiles), and an under-sprite for both mount types."
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "2. Center Point: Make sure to accurately set the weapon's center point. This determines the pivot around which the weapon rotates to track targets."
+        },
+        {
+            "type": "SEPARATOR",
+            "title": "Firing Offsets"
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "Firing offsets determine exactly where projectiles or beams spawn when the weapon fires."
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "1. In the Offsets instrument tab, you can click in the viewport to add new firing points, such as the tips of multiple gun barrels."
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "2. For weapons with multiple barrels, you can add multiple offsets. The weapon will cycle through these offsets when firing according to its defined behavior."
+        },
+        {
+            "type": "SEPARATOR",
+            "title": "Weapon Animations"
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "Many weapons, such as chainguns or charging energy weapons, use sprite sheets to animate."
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "1. Animation Type: Specify how the weapon animates (e.g., NONE, GLOW, MUZZLE_FLASH, ANIMATED_WEAPON)."
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "2. Frame Rate: Set the framerate at which the animation plays."
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "3. Number of Frames: If using a sprite sheet, define how many frames it contains so the editor and game know how to split the image."
+        }
+    ]
+}

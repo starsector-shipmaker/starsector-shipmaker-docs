@@ -1,0 +1,45 @@
+{
+    "name": "Undo and Redo",
+    "articleParts": [
+        {
+            "type": "TITLE",
+            "title": "Using Undo and Redo"
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "Mistakes happen! The Starsector Ship Editor features a robust global undo and redo system to help you easily revert changes you make to any ship or weapon."
+        },
+        {
+            "type": "SEPARATOR",
+            "title": "How it Works"
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "Every modification you make to a layer—whether it's moving a hull bound point, changing a weapon slot's type, or modifying a skin's base stats—is recorded as an 'Edit' in the global history stack."
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "1. Undo (CTRL + Z): Reverts the most recent action you performed. You can press it multiple times to step backwards through your edit history."
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "2. Redo (CTRL + Y / CTRL + SHIFT + Z): Reapplies an action that you just undid."
+        },
+        {
+            "type": "SEPARATOR",
+            "title": "Layer Context"
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "The undo/redo stack is global, meaning it tracks your edits chronologically across all layers."
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "If you make a change on Layer A, then switch to Layer B and make a change, pressing Undo will first revert the change on Layer B. Pressing Undo again will then revert the change on Layer A."
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "Note that undoing an action on a layer that is currently hidden or inactive will silently apply the changes in the background. The editor may automatically switch your active layer to ensure you can see the results of an undo action."
+        }
+    ]
+}

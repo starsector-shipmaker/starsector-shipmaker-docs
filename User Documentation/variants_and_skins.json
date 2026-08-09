@@ -1,0 +1,69 @@
+{
+    "name": "Variants and Skins",
+    "articleParts": [
+        {
+            "type": "TITLE",
+            "title": "Working with Variants and Skins"
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "While a '.ship' file defines the base hull, you will often need to create specific loadouts (Variants) or modified versions of the hull (Skins) for campaigns and missions."
+        },
+        {
+            "type": "SEPARATOR",
+            "title": "Ship Variants"
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "A Variant (.variant file) represents a specific loadout of weapons, fighter wings, hullmods, and stat distributions for a ship."
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "1. In the Variants instrument tab, you can create a new variant based on the active hull."
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "2. Equip Weapons: Select a weapon slot on the ship and choose a weapon from your game data repository to equip it."
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "3. Assign Weapon Groups: Group equipped weapons together and define whether they are linked (fire simultaneously) or alternating."
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "4. Add Hullmods and Wings: Allocate ordnance points to add passive hullmods and equip fighter wings in available launch bays."
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "5. Distribute remaining ordnance points into Capacitors (flux capacity) and Vents (flux dissipation)."
+        },
+        {
+            "type": "SEPARATOR",
+            "title": "Ship Skins"
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "A Skin (.skin file) represents a modified version of a base hull. For example, a Pirate or XIV Battlegroup version of a standard ship."
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "1. In the Skins instrument tab, you can create a new skin derived from the base hull."
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "2. You can specify a completely different sprite image for the skin."
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "3. Override base stats: Modify the ship's base ordnance points, hitpoints, armor, flux capacity, and other core statistics."
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "4. Manage Built-ins: Add or remove built-in weapons and built-in hullmods that differ from the base hull."
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "5. You can also modify weapon slot properties, such as changing a slot's type from Ballistic to Energy or resizing it."
+        }
+    ]
+}

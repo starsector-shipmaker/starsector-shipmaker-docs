@@ -1,0 +1,77 @@
+{
+    "name": "Ship Editing",
+    "articleParts": [
+        {
+            "type": "TITLE",
+            "title": "Editing Ship Hulls"
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "The core of creating a new ship involves defining its physical boundaries, where weapons can be mounted, and where its engines are located. These properties are saved in the ship's '.ship' file."
+        },
+        {
+            "type": "SEPARATOR",
+            "title": "Hull Bounds (Collision)"
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "The hull bounds define the physical collision polygon of the ship in combat. You can edit this in the Bounds instrument tab."
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "1. Add a bound point by selecting the Bounds tab and clicking in the viewport."
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "2. Drag existing points to adjust the polygon."
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "3. Remember that bounds must be a convex polygon in Starsector for collision to calculate correctly."
+        },
+        {
+            "type": "SEPARATOR",
+            "title": "Weapon Slots"
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "Weapon slots dictate where weapons can be equipped. Use the Slots instrument tab to manage them."
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "1. Click in the viewport to add a new weapon slot."
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "2. In the instrument panel, configure the slot's Type (Ballistic, Energy, Missile, Synergy, Universal, etc.) and Size (Small, Medium, Large)."
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "3. Set the Mount Type: Turret (rotates freely), Hardpoint (restricted rotation, integrated into the hull), or Hidden (internal)."
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "4. Adjust the firing arc and angle for the slot by dragging the arc indicators in the viewport or manually entering values."
+        },
+        {
+            "type": "SEPARATOR",
+            "title": "Engine Slots"
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "Engine slots define the visual exhaust trails produced by the ship."
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "1. Use the Engines tab and click to add a new engine exhaust point."
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "2. Configure the Engine Style (e.g., HIGH_TECH, MIDLINE, LOW_TECH) to match the visual theme of your ship."
+        },
+        {
+            "type": "TEXT_BLOCK",
+            "text": "3. Adjust the Length, Width, and Angle of the exhaust trail to fit the sprite's engine nozzles."
+        }
+    ]
+}
